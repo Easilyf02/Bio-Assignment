@@ -12,37 +12,38 @@ body{
     height: 100%;
     align-items: center;
     background: black;
-    color: white;
+    color: rgb(169, 203, 231);
     justify-content: space-between;
     align-items: center;
     margin: 0 5rem;
 }
 .container-u{
     display: flex;
-    height: 100%;
     width: 94%;
     margin: 0 5rem;
     align-items: center;
-    background: white;
-    color: black;
+    background: rgb(241, 244, 252);
     justify-content: space-between;
     align-items: center;
     padding: 0 4rem;
 }
 .container-u .all{
-    background: white;
+    background: rgb(96, 190, 190);
+    overflow: hidden;
 }
 .container-u .all img{
-    background: white;
+    background: white; 
 }
 .drop ul{
     display: flex;
     gap: 2.5rem;
     position: relative;
+    cursor: pointer;
 }
 li{
     list-style: none;
     position: relative;
+    color: black;
 }
 ul li.home::before{
     content: '';
@@ -58,6 +59,8 @@ ul li.home::before{
 }
 .all img{
     background: transparent;
+    outline: none;
+    background: #fff;
 }
 .container-y{
     display: flex;
@@ -70,32 +73,35 @@ ul li.home::before{
     align-items: center;
 }
 .container-y .left{
-    width: 400rem;
-    font-size: 1.2rem;
+    width: 500rem;
+    font-size: 1.3rem;
     line-height: 1.2;
-    color: rgb(220, 233, 233);
+    color: rgb(181, 189, 189);
     font-weight: 200;
-    padding: 0 4rem;
+    padding: 0 0 0 5rem;
 }
 .container-y .right{
     width: 500rem;
     align-self: self-start;
+    background: transparent;
+    overflow: hidden;
 }
 .container-z .right2{
     width: 500rem;
     align-self: self-start;
 }
 .container-y .right img{
-    width: 25vw;
+    width: 21vw;
     margin-top: 1rem;
     align-self: self-start;
     height: 40vh;
 }
 .container-z .right2 img{
-    width: 25vw;
+    width: 30vw;
     margin-top: 1rem;
     align-self: self-start;
     height: 40vh;
+    padding-left: 5rem;
 }
 
 .container-y button{
@@ -104,6 +110,7 @@ ul li.home::before{
     color: white;
     padding: 0.4rem;
     border-radius: 5px;
+    cursor: pointer;
 }
 h5{
     margin-bottom: 1rem;
@@ -120,6 +127,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     margin: 0 5rem;
+    margin-top: -0.22rem;
     padding: 2rem;
 }
 .container-z .left{
@@ -144,6 +152,7 @@ h2{
     padding: 0.1rem 1.4rem;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn-1{
     background: transparent;
@@ -151,6 +160,11 @@ h2{
     padding: 0.3rem 1rem;
     border: 1px solid blue;
     border-radius: 5px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    color: #fff;
+    background: blue;
 }
 .container-z .left2{
     width: 400rem;
@@ -160,12 +174,28 @@ h2{
     font-weight: 200;
     padding: 0 4rem;
 }
+.pix{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 2rem;
+}
 footer .container-a{
     display: flex;
     align-items: center;
     justify-content: space-between;
     align-items: center;
     margin: 0 5rem;
-    padding: 0.4rem 3rem;
+    padding: 0.6rem 3rem;
     width: 100%;
+    color: rgb(243, 234, 234);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.pix-1{
+    width: 15px;
+    height: 15px;
+}
+.pix-2{
+    width: 16px;
+    height: 16px;
 }
